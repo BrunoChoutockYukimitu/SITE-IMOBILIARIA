@@ -391,19 +391,19 @@
       </hero-wrapper>
       <features1-wrapper class="features1-wrapper">
         <!--BANNER-->
-        <img src="images/banner01.jpg" class="banner">
+        <img src="images/banner01.jpg" class="banner" id="trocaBaner">
         <div class="banner-buttons">
-          <button class="thq-button-outline hero-button2">
-            <span class="thq-body-small"><span>1</span></span>
+          <button class="thq-button-outline hero-button2"  onclick="fnBotao1()">
+            <span class="thq-body-small"><span id="botao1">1</span></span>
           </button>
-          <button class="thq-button-outline hero-button2">
-            <span class="thq-body-small"><span>2</span></span>
+          <button class="thq-button-outline hero-button2"  onclick="fnBotao2()">
+            <span class="thq-body-small"><span id="botao2">2</span></span>
           </button>
-          <button class="thq-button-outline hero-button2">
-            <span class="thq-body-small"><span>3</span></span>
+          <button class="thq-button-outline hero-button2"  onclick="fnBotao3()">
+            <span class="thq-body-small"><span id="botao3">3</span></span>
           </button>
-          <button class="thq-button-outline hero-button2">
-            <span class="thq-body-small"><span>4</span></span>
+          <button class="thq-button-outline hero-button2"  onclick="fnBotao4()">
+            <span class="thq-body-small"><span id="botao4">4</span></span>
           </button>
         </div>
 
@@ -490,11 +490,11 @@
                   <div class="footer-actions">
                     <div class="footer-form">
                       <div class="footer-container">
-                        <input type="email" placeholder="E-mail" class="footer-text-input thq-input" />
+                        <input type="email" placeholder="E-mail" class="footer-text-input thq-input" id="email"/>
                       </div>
-                      <button class="thq-button-outline footer-button">
+                      <button class="thq-button-outline footer-button" onclick="fnCadastrar()">
                         <span class="thq-body-small">
-                          <span id="contato14">Cadastrar</span>
+                          <span id="contato14" id="Cadastrar">Cadastrar</span>
                         </span>
                       </button>
                     </div>
@@ -515,8 +515,8 @@
                     </span>
                   </span>
                   <div class="footer-footer-links3">
-                    <span class="thq-body-small">
-                      <span>19:00</span>
+                    <span class="thq-body-small" >
+                      <span id="hora">19:00</span>
                     </span>
 
                   </div>
